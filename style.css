@@ -1,0 +1,109 @@
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap'); */
+
+  body 
+{
+    font: normal 20px Segoe UI,Helvetica,sans-serif;
+    word-spacing: 3px;  
+    background-color: #f4f4f4;
+}
+.container {
+max-width: 750px;
+margin: auto;
+}
+
+.titulnik { 
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff; 
+    margin-bottom: 2px;
+    padding: 10px;
+
+}
+.titulnik h1 {
+    font: bold 20px Segoe UI,Helvetica,sans-serif;
+    text-align: center;
+
+}
+
+.card 
+{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff; 
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type:square
+}
+
+
+.header
+{
+    margin-top: 150px;
+    border: 3px solid #858383;
+    border-radius: 17px;
+    text-align:center;
+}
+
+span.selected-word /* Настройка для выделенных слов*/
+{
+    font: bold 20px Segoe UI,Helvetica,sans-serif;
+}
+
+p.fig /* Картинка посередине страницы  */
+{
+    text-align: center;
+    
+}
+
+
+
+/* The sidebar menu */
+.sidenav {
+    background-color: #a19d9d;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    display: flex;
+} 
+
+/* The navigation menu links */
+.sidenav a {
+    transition: all .2s;
+    float: left; 
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    } 
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    background: #ddd;
+    color: black
+} 
+
+p.podpis {
+text-align: center;
+font: bold 13px Segoe UI,Helvetica,sans-serif;
+}
+
+.box-right {
+float: right;
+text-align:center;
+font: bold 13px Segoe UI,Helvetica,sans-serif;
+padding-right: 10px;
+padding-top: 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 600px) {
+    .sidenav a {font-size: 13px; } 
+    .header {margin-top: 100px;}
+} 
